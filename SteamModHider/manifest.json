@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Steam Workshop Mod Hider",
+  "version": "1.0",
+  "description": "Ukrywa mody z Steam Workshop za pomocą filtrów uBlock Origin.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://steamcommunity.com/sharedfiles/filedetails/*",
+    "*://steamcommunity.com/app/*/workshop/*",
+    "*://steamcommunity.com/workshop/browse/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://steamcommunity.com/sharedfiles/filedetails/*",
+        "*://steamcommunity.com/app/*/workshop/*",
+        "*://steamcommunity.com/workshop/browse/*"
+      ],
+      "js": ["content_script_loader.js"]
+    }
+  ]
+}
