@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State">
-	<!--https://schneegans.de/windows/unattend-generator/?LanguageMode=Unattended&UILanguage=pl-PL&Locale=pl-PL&Keyboard=00000415&GeoLocation=191&ProcessorArchitecture=x86&ProcessorArchitecture=amd64&ProcessorArchitecture=arm64&BypassRequirementsCheck=true&BypassNetworkCheck=true&UseConfigurationSet=true&HidePowerShellWindows=true&ComputerNameMode=Custom&ComputerName=DEFAULT&CompactOsMode=Never&TimeZoneMode=Explicit&TimeZone=Central+European+Standard+Time&PartitionMode=Interactive&DiskAssertionMode=Skip&WindowsEditionMode=Generic&WindowsEdition=pro&InstallFromMode=Automatic&PEMode=Default&UserAccountMode=InteractiveLocal&PasswordExpirationMode=Unlimited&LockoutMode=Disabled&HideFiles=HiddenSystem&ShowFileExtensions=true&ClassicContextMenu=true&LaunchToThisPC=true&ShowEndTask=true&TaskbarSearch=Hide&TaskbarIconsMode=Custom&TaskbarIconsXml=%3CLayoutModificationTemplate+xmlns%3D%22http%3A%2F%2Fschemas.microsoft.com%2FStart%2F2014%2FLayoutModification%22+xmlns%3Adefaultlayout%3D%22http%3A%2F%2Fschemas.microsoft.com%2FStart%2F2014%2FFullDefaultLayout%22+xmlns%3Astart%3D%22http%3A%2F%2Fschemas.microsoft.com%2FStart%2F2014%2FStartLayout%22+xmlns%3Ataskbar%3D%22http%3A%2F%2Fschemas.microsoft.com%2FStart%2F2014%2FTaskbarLayout%22+Version%3D%221%22%3E%0D%0A++%3CCustomTaskbarLayoutCollection+PinListPlacement%3D%22Replace%22%3E%0D%0A++++%3Cdefaultlayout%3ATaskbarLayout%3E%0D%0A++++++%3Ctaskbar%3ATaskbarPinList%3E%0D%0A++++++++%3Ctaskbar%3ADesktopApp+DesktopApplicationID%3D%22Microsoft.Windows.Explorer%22+%2F%3E%0D%0A++++++%3C%2Ftaskbar%3ATaskbarPinList%3E%0D%0A++++%3C%2Fdefaultlayout%3ATaskbarLayout%3E%0D%0A++%3C%2FCustomTaskbarLayoutCollection%3E%0D%0A%3C%2FLayoutModificationTemplate%3E&DisableWidgets=true&LeftTaskbar=true&HideTaskViewButton=true&ShowAllTrayIcons=true&DisableBingResults=true&StartTilesMode=Empty&StartPinsMode=Empty&DisableWindowsUpdate=true&DisableUac=true&DisableSac=true&DisableSmartScreen=true&DisableFastStartup=true&DisableSystemRestore=true&EnableLongPaths=true&HardenSystemDriveAcl=true&AllowPowerShellScripts=true&DisableLastAccess=true&PreventAutomaticReboot=true&DisableAppSuggestions=true&PreventDeviceEncryption=true&HideEdgeFre=true&DisableEdgeStartupBoost=true&MakeEdgeUninstallable=true&DisablePointerPrecision=true&DisableCoreIsolation=true&DeleteWindowsOld=true&EffectsMode=Custom&ListviewShadow=true&ThumbnailsOrIcon=true&ListviewAlphaSelect=true&DragFullWindows=true&FontSmoothing=true&DeleteEdgeDesktopIcon=true&DesktopIconsMode=Custom&IconRecycleBin=true&StartFoldersMode=Default&WifiMode=Skip&ExpressSettings=DisableAll&LockKeysMode=Skip&StickyKeysMode=Disabled&ColorMode=Custom&SystemColorTheme=Dark&AppsColorTheme=Dark&AccentColor=%230078d4&WallpaperMode=Default&LockScreenMode=Default&Remove3DViewer=true&RemoveBingSearch=true&RemoveCamera=true&RemoveClipchamp=true&RemoveClock=true&RemoveCopilot=true&RemoveCortana=true&RemoveDevHome=true&RemoveWindowsHello=true&RemoveFamily=true&RemoveFeedbackHub=true&RemoveGameAssist=true&RemoveGetHelp=true&RemoveHandwriting=true&RemoveInternetExplorer=true&RemoveMailCalendar=true&RemoveMaps=true&RemoveMathInputPanel=true&RemoveMediaFeatures=true&RemoveMixedReality=true&RemoveZuneVideo=true&RemoveNews=true&RemoveNotepad=true&RemoveOffice365=true&RemoveOneDrive=true&RemoveOneNote=true&RemoveOneSync=true&RemoveOpenSSHClient=true&RemoveOutlook=true&RemovePaint=true&RemovePaint3D=true&RemovePeople=true&RemovePhotos=true&RemovePowerAutomate=true&RemovePowerShell2=true&RemovePowerShellISE=true&RemoveQuickAssist=true&RemoveRecall=true&RemoveRdpClient=true&RemoveSkype=true&RemoveSolitaire=true&RemoveSpeech=true&RemoveStepsRecorder=true&RemoveStickyNotes=true&RemoveTeams=true&RemoveGetStarted=true&RemoveToDo=true&RemoveVoiceRecorder=true&RemoveWallet=true&RemoveWeather=true&RemoveFaxAndScan=true&RemoveZuneMusic=true&RemoveWindowsTerminal=true&RemoveWordPad=true&RemoveYourPhone=true&FirstLogonScript0=Windows+Registry+Editor+Version+5.00%0D%0A%0D%0A%5BHKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CBraveSoftware%5CBrave%5D%0D%0A%22MetricsReportingEnabled%22%3Ddword%3A00000000%0D%0A%22SafeBrowsingExtendedReportingEnabled%22%3Ddword%3A00000000%0D%0A%22UrlKeyedAnonymizedDataCollectionEnabled%22%3Ddword%3A00000000%0D%0A%22FeedbackSurveysEnabled%22%3Ddword%3A00000000%0D%0A%22AutofillCreditCardEnabled%22%3Ddword%3A00000000%0D%0A%22PasswordManagerEnabled%22%3Ddword%3A00000000%0D%0A%22WebRtcIPHandling%22%3D%22disable_non_proxied_udp%22%0D%0A%22BlockThirdPartyCookies%22%3Ddword%3A00000001%0D%0A%22IPFSEnabled%22%3Ddword%3A00000000%0D%0A%22BraveRewardsDisabled%22%3Ddword%3A00000001%0D%0A%22BraveWalletDisabled%22%3Ddword%3A00000001%0D%0A%22BraveVPNDisabled%22%3Ddword%3A00000001%0D%0A%22BraveAIChatEnabled%22%3Ddword%3A00000000%0D%0A%22TorDisabled%22%3Ddword%3A00000001%0D%0A%22BackgroundModeEnabled%22%3Ddword%3A00000000%0D%0A%22MediaRecommendationsEnabled%22%3Ddword%3A00000000%0D%0A%22ShoppingListEnabled%22%3Ddword%3A00000000%0D%0A%22SpellcheckEnabled%22%3Ddword%3A00000000%0D%0A%22PromotionsEnabled%22%3Ddword%3A00000000%0D%0A%22SearchSuggestEnabled%22%3Ddword%3A00000000&FirstLogonScriptType0=Reg&FirstLogonScript1=%23+create+start+menu+%26+startup+shortcuts%0D%0A%24WshShell+%3D+New-Object+-comObject+WScript.Shell%0D%0A%24Shortcut+%3D+%24WshShell.CreateShortcut%28%22%24env%3AProgramData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%5CStart+Menu+Shortcuts+1.lnk%22%29%0D%0A%24Shortcut.TargetPath+%3D+%22%24env%3AProgramData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%22%0D%0A%24Shortcut.Save%28%29%0D%0A%24WshShell+%3D+New-Object+-comObject+WScript.Shell%0D%0A%24Shortcut+%3D+%24WshShell.CreateShortcut%28%22%24env%3AProgramData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%5CStart+Menu+Shortcuts+2.lnk%22%29%0D%0A%24Shortcut.TargetPath+%3D+%22%24env%3AAppData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%22%0D%0A%24Shortcut.Save%28%29%0D%0A%24WshShell+%3D+New-Object+-comObject+WScript.Shell%0D%0A%24Shortcut+%3D+%24WshShell.CreateShortcut%28%22%24env%3AProgramData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%5CStartup+Programs+1.lnk%22%29%0D%0A%24Shortcut.TargetPath+%3D+%22%24env%3AAppData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%5CStartup%22%0D%0A%24Shortcut.Save%28%29%0D%0A%24WshShell+%3D+New-Object+-comObject+WScript.Shell%0D%0A%24Shortcut+%3D+%24WshShell.CreateShortcut%28%22%24env%3AProgramData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%5CStartup+Programs+2.lnk%22%29%0D%0A%24Shortcut.TargetPath+%3D+%22%24env%3AProgramData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%5CStartUp%22%0D%0A%24Shortcut.Save%28%29&FirstLogonScriptType1=Ps1&WdacMode=Skip&AppLockerMode=Skip-->
+	<!--https://schneegans.de/windows/unattend-generator/?LanguageMode=Unattended&UILanguage=pl-PL&GeoLocation=191&Locale=pl-PL&Keyboard=00000415&PEMode=Default&WindowsEditionMode=Generic&WindowsEdition=pro&ProcessorArchitecture=x86&ProcessorArchitecture=amd64&ProcessorArchitecture=arm64&BypassRequirementsCheck=true&BypassNetworkCheck=true&UseConfigurationSet=true&HidePowerShellWindows=true&ComputerNameMode=Custom&ComputerName=DEFAULT&TimeZoneMode=Explicit&TimeZone=Central+European+Standard+Time&UserAccountMode=InteractiveLocal&PasswordExpirationMode=Unlimited&LockoutMode=Disabled&HideFiles=HiddenSystem&ShowFileExtensions=true&ClassicContextMenu=true&LaunchToThisPC=true&ShowEndTask=true&TaskbarSearch=Hide&TaskbarIconsMode=Custom&TaskbarIconsXml=%3CLayoutModificationTemplate+xmlns%3D%22http%3A%2F%2Fschemas.microsoft.com%2FStart%2F2014%2FLayoutModification%22+xmlns%3Adefaultlayout%3D%22http%3A%2F%2Fschemas.microsoft.com%2FStart%2F2014%2FFullDefaultLayout%22+xmlns%3Astart%3D%22http%3A%2F%2Fschemas.microsoft.com%2FStart%2F2014%2FStartLayout%22+xmlns%3Ataskbar%3D%22http%3A%2F%2Fschemas.microsoft.com%2FStart%2F2014%2FTaskbarLayout%22+Version%3D%221%22%3E%0D%0A++%3CCustomTaskbarLayoutCollection+PinListPlacement%3D%22Replace%22%3E%0D%0A++++%3Cdefaultlayout%3ATaskbarLayout%3E%0D%0A++++++%3Ctaskbar%3ATaskbarPinList%3E%0D%0A++++++++%3Ctaskbar%3ADesktopApp+DesktopApplicationID%3D%22Microsoft.Windows.Explorer%22+%2F%3E%0D%0A++++++%3C%2Ftaskbar%3ATaskbarPinList%3E%0D%0A++++%3C%2Fdefaultlayout%3ATaskbarLayout%3E%0D%0A++%3C%2FCustomTaskbarLayoutCollection%3E%0D%0A%3C%2FLayoutModificationTemplate%3E&DisableWidgets=true&LeftTaskbar=true&HideTaskViewButton=true&ShowAllTrayIcons=true&DisableBingResults=true&StartTilesMode=Empty&StartPinsMode=Empty&DisableWindowsUpdate=true&DisableUac=true&DisableSac=true&DisableSmartScreen=true&DisableFastStartup=true&DisableSystemRestore=true&EnableLongPaths=true&HardenSystemDriveAcl=true&AllowPowerShellScripts=true&DisableLastAccess=true&PreventAutomaticReboot=true&DisableAppSuggestions=true&PreventDeviceEncryption=true&HideEdgeFre=true&DisableEdgeStartupBoost=true&MakeEdgeUninstallable=true&DisablePointerPrecision=true&DisableCoreIsolation=true&DeleteWindowsOld=true&EffectsMode=Custom&ListviewShadow=true&ThumbnailsOrIcon=true&ListviewAlphaSelect=true&DragFullWindows=true&FontSmoothing=true&DeleteEdgeDesktopIcon=true&DesktopIconsMode=Custom&IconRecycleBin=true&StartFoldersMode=Default&WifiMode=Skip&ExpressSettings=DisableAll&LockKeysMode=Skip&StickyKeysMode=Disabled&ColorMode=Custom&SystemColorTheme=Dark&AppsColorTheme=Dark&AccentColor=%230078d4&WallpaperMode=Default&LockScreenMode=Default&Remove3DViewer=true&RemoveBingSearch=true&RemoveCamera=true&RemoveClipchamp=true&RemoveClock=true&RemoveCopilot=true&RemoveCortana=true&RemoveDevHome=true&RemoveWindowsHello=true&RemoveFamily=true&RemoveFeedbackHub=true&RemoveGameAssist=true&RemoveGetHelp=true&RemoveHandwriting=true&RemoveInternetExplorer=true&RemoveMailCalendar=true&RemoveMaps=true&RemoveMathInputPanel=true&RemoveMediaFeatures=true&RemoveMixedReality=true&RemoveZuneVideo=true&RemoveNews=true&RemoveNotepad=true&RemoveOffice365=true&RemoveOneDrive=true&RemoveOneNote=true&RemoveOneSync=true&RemoveOpenSSHClient=true&RemoveOutlook=true&RemovePaint3D=true&RemovePeople=true&RemovePhotos=true&RemovePowerAutomate=true&RemovePowerShell2=true&RemovePowerShellISE=true&RemoveQuickAssist=true&RemoveRecall=true&RemoveRdpClient=true&RemoveSkype=true&RemoveSolitaire=true&RemoveSpeech=true&RemoveStepsRecorder=true&RemoveStickyNotes=true&RemoveTeams=true&RemoveGetStarted=true&RemoveToDo=true&RemoveVoiceRecorder=true&RemoveWallet=true&RemoveWeather=true&RemoveFaxAndScan=true&RemoveZuneMusic=true&RemoveWindowsTerminal=true&RemoveWordPad=true&RemoveXboxApps=true&RemoveYourPhone=true&FirstLogonScript0=Windows+Registry+Editor+Version+5.00%0D%0A%0D%0A%5BHKEY_LOCAL_MACHINE%5CSOFTWARE%5CPolicies%5CBraveSoftware%5CBrave%5D%0D%0A%22MetricsReportingEnabled%22%3Ddword%3A00000000%0D%0A%22SafeBrowsingExtendedReportingEnabled%22%3Ddword%3A00000000%0D%0A%22UrlKeyedAnonymizedDataCollectionEnabled%22%3Ddword%3A00000000%0D%0A%22FeedbackSurveysEnabled%22%3Ddword%3A00000000%0D%0A%22AutofillCreditCardEnabled%22%3Ddword%3A00000000%0D%0A%22PasswordManagerEnabled%22%3Ddword%3A00000000%0D%0A%22WebRtcIPHandling%22%3D%22disable_non_proxied_udp%22%0D%0A%22BlockThirdPartyCookies%22%3Ddword%3A00000001%0D%0A%22IPFSEnabled%22%3Ddword%3A00000000%0D%0A%22BraveRewardsDisabled%22%3Ddword%3A00000001%0D%0A%22BraveWalletDisabled%22%3Ddword%3A00000001%0D%0A%22BraveVPNDisabled%22%3Ddword%3A00000001%0D%0A%22BraveAIChatEnabled%22%3Ddword%3A00000000%0D%0A%22TorDisabled%22%3Ddword%3A00000001%0D%0A%22BackgroundModeEnabled%22%3Ddword%3A00000000%0D%0A%22MediaRecommendationsEnabled%22%3Ddword%3A00000000%0D%0A%22ShoppingListEnabled%22%3Ddword%3A00000000%0D%0A%22SpellcheckEnabled%22%3Ddword%3A00000000%0D%0A%22PromotionsEnabled%22%3Ddword%3A00000000%0D%0A%22SearchSuggestEnabled%22%3Ddword%3A00000000&FirstLogonScriptType0=Reg&FirstLogonScript1=%23+create+start+menu+%26+startup+shortcuts%0D%0A%24WshShell+%3D+New-Object+-comObject+WScript.Shell%0D%0A%24Shortcut+%3D+%24WshShell.CreateShortcut%28%22%24env%3AProgramData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%5CStart+Menu+Shortcuts+1.lnk%22%29%0D%0A%24Shortcut.TargetPath+%3D+%22%24env%3AProgramData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%22%0D%0A%24Shortcut.Save%28%29%0D%0A%24WshShell+%3D+New-Object+-comObject+WScript.Shell%0D%0A%24Shortcut+%3D+%24WshShell.CreateShortcut%28%22%24env%3AProgramData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%5CStart+Menu+Shortcuts+2.lnk%22%29%0D%0A%24Shortcut.TargetPath+%3D+%22%24env%3AAppData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%22%0D%0A%24Shortcut.Save%28%29%0D%0A%24WshShell+%3D+New-Object+-comObject+WScript.Shell%0D%0A%24Shortcut+%3D+%24WshShell.CreateShortcut%28%22%24env%3AProgramData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%5CStartup+Programs+1.lnk%22%29%0D%0A%24Shortcut.TargetPath+%3D+%22%24env%3AAppData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%5CStartup%22%0D%0A%24Shortcut.Save%28%29%0D%0A%24WshShell+%3D+New-Object+-comObject+WScript.Shell%0D%0A%24Shortcut+%3D+%24WshShell.CreateShortcut%28%22%24env%3AProgramData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%5CStartup+Programs+2.lnk%22%29%0D%0A%24Shortcut.TargetPath+%3D+%22%24env%3AProgramData%5CMicrosoft%5CWindows%5CStart+Menu%5CPrograms%5CStartUp%22%0D%0A%24Shortcut.Save%28%29&FirstLogonScriptType1=Ps1&WdacMode=Skip&AppLockerMode=Skip-->
 	<settings pass="offlineServicing"></settings>
 	<settings pass="windowsPE">
 		<component name="Microsoft-Windows-International-Core-WinPE" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
@@ -13,11 +13,6 @@
 			<UILanguage>pl-PL</UILanguage>
 		</component>
 		<component name="Microsoft-Windows-Setup" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
-			<ImageInstall>
-				<OSImage>
-					<Compact>false</Compact>
-				</OSImage>
-			</ImageInstall>
 			<UserData>
 				<ProductKey>
 					<Key>VK7JG-NPHTM-C97JM-9MPGT-3V66T</Key>
@@ -42,11 +37,6 @@
 			</RunSynchronous>
 		</component>
 		<component name="Microsoft-Windows-Setup" processorArchitecture="arm64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
-			<ImageInstall>
-				<OSImage>
-					<Compact>false</Compact>
-				</OSImage>
-			</ImageInstall>
 			<UserData>
 				<ProductKey>
 					<Key>VK7JG-NPHTM-C97JM-9MPGT-3V66T</Key>
@@ -71,11 +61,6 @@
 			</RunSynchronous>
 		</component>
 		<component name="Microsoft-Windows-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
-			<ImageInstall>
-				<OSImage>
-					<Compact>false</Compact>
-				</OSImage>
-			</ImageInstall>
 			<UserData>
 				<ProductKey>
 					<Key>VK7JG-NPHTM-C97JM-9MPGT-3V66T</Key>
@@ -252,6 +237,12 @@
 		</component>
 	</settings>
 	<Extensions xmlns="https://schneegans.de/windows/unattend-generator/">
+		<Build>
+			<Commit>
+				<Hash>fbcf302dde70121101d30af3bac2140bf69742a4</Hash>
+				<GitHubUrl>https://github.com/cschneegans/unattend-generator/commit/fbcf302dde70121101d30af3bac2140bf69742a4</GitHubUrl>
+			</Commit>
+		</Build>
 		<ExtractScript>
 param(
     [xml] $Document
@@ -292,7 +283,6 @@ $selectors = @(
 	'Microsoft.MicrosoftOfficeHub';
 	'Microsoft.Office.OneNote';
 	'Microsoft.OutlookForWindows';
-	'Microsoft.Paint';
 	'Microsoft.MSPaint';
 	'Microsoft.People';
 	'Microsoft.Windows.Photos';
@@ -308,6 +298,13 @@ $selectors = @(
 	'Microsoft.Wallet';
 	'Microsoft.BingWeather';
 	'Microsoft.WindowsTerminal';
+	'Microsoft.Xbox.TCUI';
+	'Microsoft.XboxApp';
+	'Microsoft.XboxGameOverlay';
+	'Microsoft.XboxGamingOverlay';
+	'Microsoft.XboxIdentityProvider';
+	'Microsoft.XboxSpeechToTextOverlay';
+	'Microsoft.GamingApp';
 	'Microsoft.YourPhone';
 	'Microsoft.ZuneMusic';
 	'Microsoft.ZuneVideo';
@@ -360,7 +357,6 @@ $selectors = @(
 	'MathRecognizer';
 	'OneCoreUAP.OneSync';
 	'OpenSSH.Client';
-	'Microsoft.Windows.MSPaint';
 	'Microsoft.Windows.PowerShell.ISE';
 	'App.Support.QuickAssist';
 	'Language.Speech';
@@ -811,9 +807,6 @@ $Shortcut.Save()
 		<File path="C:\Windows\Setup\Scripts\Specialize.ps1">
 $scripts = @(
 	{
-		reg.exe add "HKLM\SYSTEM\Setup\MoSetup" /v AllowUpgradesWithUnsupportedTPMOrCPU /t REG_DWORD /d 1 /f;
-	};
-	{
 		reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE" /v BypassNRO /t REG_DWORD /d 1 /f;
 	};
 	{
@@ -1058,6 +1051,9 @@ $scripts = @(
 	};
 	{
 		Remove-ItemProperty -LiteralPath 'Registry::HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'OneDriveSetup' -Force -ErrorAction 'Continue';
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 0 /f;
 	};
 	{
 		reg.exe add "HKU\DefaultUser\Software\Policies\Microsoft\Windows\Explorer" /v "StartLayoutFile" /t REG_SZ /d "C:\Windows\Setup\Scripts\TaskbarLayoutModification.xml" /f;
